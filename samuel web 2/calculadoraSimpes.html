@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Simples</h1>
+        
+        
+        <div class="visor">0</div>
+
+        <div class="botoes">
+            
+            <button class="btn operador" onclick="limpar(event)">C</button>
+            <button class="btn operador" id="dividir">÷</button>
+            <button class="btn operador" id="multiplicar">×</button>
+            <button class="btn operador" id="subtrair">-</button>
+
+        
+            <button class="btn numero" onclick="mostrar(event)" >7</button>
+            <button class="btn numero" onclick="mostrar(event)">8</button>
+            <button class="btn numero" onclick="mostrar(event)">9</button>
+            <button class="btn operador" id="somar">+</button>
+
+       
+            <button class="btn numero" onclick="mostrar(event)">4</button>
+            <button class="btn numero" onclick="mostrar(event)">5</button>
+            <button class="btn numero" onclick="mostrar(event)">6</button>
+            <button class="btn igual" id="igual">=</button>
+
+        
+            <button class="btn numero" onclick="mostrar(event)">1</button>
+            <button class="btn numero" onclick="mostrar(event)">2</button>
+            <button class="btn numero" onclick="mostrar(event)">3</button>
+
+           
+            <button class="btn numero zero" id="0">0</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
